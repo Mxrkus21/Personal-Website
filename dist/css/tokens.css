@@ -1,0 +1,85 @@
+/* Central design tokens. The two responsive thresholds are 1050px and 720px;
+   CSS custom properties cannot be used in native @media queries. */
+:root {
+  color-scheme: light;
+  --color-page: #f4f2eb;
+  --color-text: #22272b;
+  --color-muted: #626970;
+  --color-line: #c6c6c1;
+  --color-line-strong: #8e938f;
+  --color-accent: #88601f;
+  --color-accent-contrast: #fcfcf7;
+  --color-surface: #e8e6df;
+  --color-surface-alt: #dfdfdc;
+  --color-field: #fafaf5;
+  --color-focus: #a45126;
+  --color-danger: #9c3e2a;
+  --color-success: #266944;
+
+  --font-ui: 'Aptos', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --font-editorial: 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+  --text-xs: .75rem;
+  --text-sm: .875rem;
+  --text-base: 1rem;
+  --text-lead: clamp(1.16rem, 1.65vw, 1.45rem);
+  --text-h3: clamp(1.45rem, 2.3vw, 2.2rem);
+  --text-section: clamp(2.5rem, 5vw, 4.8rem);
+  --text-hero: clamp(3.7rem, 7.2vw, 7rem);
+  --text-legal: clamp(2.8rem, 6vw, 5.5rem);
+  --leading-tight: 1.05;
+  --leading-heading: 1.17;
+  --leading-body: 1.58;
+  --tracking-tight: -.045em;
+  --tracking-heading: -.035em;
+  --tracking-wide: .085em;
+
+  --space-1: .375rem;
+  --space-2: .75rem;
+  --space-3: 1.125rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 2.75rem;
+  --space-7: 3.75rem;
+  --space-8: 5rem;
+  --space-9: 7rem;
+  --gutter: clamp(1.2rem, 4.5vw, 5.5rem);
+  --page-width: 95rem;
+  --line-size: 1px;
+  --line-size-strong: 2px;
+  --radius-sm: .2rem;
+  --radius-round: 50%;
+  --control-height: 2.75rem;
+  --field-height: 3.35rem;
+  --motion-fast: 170ms;
+  --motion-medium: 430ms;
+  --motion-ease: cubic-bezier(.22, 1, .36, 1);
+  --portrait-ratio: 4 / 5;
+  --teaser-art-ratio: 5 / 4;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --color-page: #101318;
+  --color-text: #f0f0ec;
+  --color-muted: #a4a8ad;
+  --color-line: #323b46;
+  --color-line-strong: #677683;
+  --color-accent: #e0b874;
+  --color-accent-contrast: #16181b;
+  --color-surface: #1c222b;
+  --color-surface-alt: #252d38;
+  --color-field: #1a2028;
+  --color-focus: #eab38a;
+  --color-danger: #ff9b87;
+  --color-success: #a2d9b1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-fast: 0ms;
+    --motion-medium: 0ms;
+  }
+}

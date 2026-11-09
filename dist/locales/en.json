@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "homeTitle": "Markus Baier",
+    "homeDescription": "Markus Baier studies computer science at FH Aachen. This website introduces him, his studies and his own projects.",
+    "imprintTitle": "Legal Notice | Markus Baier",
+    "privacyTitle": "Privacy | Markus Baier"
+  },
+  "access": {
+    "skip": "Skip to content"
+  },
+  "navigation": {
+    "label": "Main navigation",
+    "personal": "Personal",
+    "studies": "Studies",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "controls": {
+    "de": "DE",
+    "en": "EN",
+    "languageLabel": "Choose language",
+    "themeLabel": "Change colour theme",
+    "dark": "Dark",
+    "light": "Light",
+    "personalOpen": "More about me",
+    "personalClose": "Show less about me",
+    "studiesOpen": "Explore my studies",
+    "studiesClose": "Collapse studies",
+    "projectOpen": "Explore this project",
+    "projectClose": "Close project details"
+  },
+  "hero": {
+    "name": "Markus Baier",
+    "first": "Markus",
+    "last": "Baier",
+    "subtitle": "I study computer science at FH Aachen, enjoy sharing what I know and like building projects of my own.",
+    "portraitAlt": "Placeholder for a portrait of Markus Baier",
+    "portraitPlaceholder": "Portrait to come"
+  },
+  "personal": {
+    "title": "Personal",
+    "summary": "I want to understand how things work and how they can be improved. For me, that way of thinking began with strategy games.",
+    "story": "When I played board and card games as a child, I usually wanted to win. First I had to understand the rules, consider my options, decide which goal mattered most and work out which move would make sense in the long run. Eventually, I noticed that I asked the same questions when facing completely different problems. I enjoy recognising the systems underneath, understanding them and finding solutions of my own. That made studying computer science a natural choice.",
+    "technicalText": "I have not chosen a specialisation yet. So far, I am most interested in systems and optimisation, software development and mathematics. I like software development because it lets me put my own ideas into practice. Mathematics fascinates me because its methods can be applied to so many different problems.",
+    "beyondTitle": "My own card game",
+    "beyondText": "I still enjoy board and card games. I designed one card game myself and continue to play it today. It is a personal creative project, not a computer science project.",
+    "gameAlt": "Photograph of my self-designed card game with several playing cards and the deck"
+  },
+  "studies": {
+    "title": "Studies & Involvement",
+    "summary": "My studies are about more than lectures and exams. Here are some of the things I have achieved and taken on alongside university.",
+    "timelineLabel": "Choose an area of my studies",
+    "timeline": [
+      {
+        "id": "academic",
+        "title": "Academic Performance",
+        "entries": [
+          {
+            "date": "Since October 2026",
+            "title": "Deutschlandstipendium",
+            "text": "I have received support through the Deutschlandstipendium since October 2026. The award ceremony is planned for 13 November 2026.",
+            "kind": "ongoing"
+          },
+          {
+            "date": "May 2026",
+            "title": "Dean's List",
+            "text": "I was included in the FH Aachen Dean's List for my academic performance.",
+            "kind": "event"
+          },
+          {
+            "date": "Studies so far",
+            "title": "Grades",
+            "text": "Many of my exam grades so far have been 1.0 on the German scale. I will add my exact current average once it has been confirmed.",
+            "kind": "ongoing"
+          },
+          {
+            "date": "Start date to be added",
+            "title": "Computer Science at FH Aachen",
+            "text": "I study computer science here and get to explore different areas of the field.",
+            "kind": "ongoing"
+          }
+        ]
+      },
+      {
+        "id": "teaching",
+        "title": "Teaching & Responsibility",
+        "entries": [
+          {
+            "date": "Since September 2026",
+            "title": "Tutor at FH Aachen",
+            "text": "As a tutor, I help other students understand course material and apply it themselves.",
+            "kind": "ongoing"
+          },
+          {
+            "date": "Period to be added",
+            "title": "Scholarship cohort representative",
+            "text": "I represent this year's cohort of Deutschlandstipendium recipients.",
+            "kind": "ongoing"
+          },
+          {
+            "date": "Since early in my studies",
+            "title": "Mathematics tutoring",
+            "text": "I independently tutor school pupils in mathematics. On request, I also help university students with different subjects.",
+            "kind": "ongoing"
+          }
+        ]
+      },
+      {
+        "id": "initiative",
+        "title": "Initiative & Development",
+        "entries": [
+          {
+            "date": "Since September 2026",
+            "title": "TRACE",
+            "text": "Alongside my studies, I take part in TRACE, an entrepreneurship-oriented programme. It gives me the opportunity to explore how ideas can become projects of my own.",
+            "kind": "ongoing"
+          },
+          {
+            "date": "Planned",
+            "title": "My next goals",
+            "goals": [
+              "Find a working student position and gain practical experience.",
+              "Spend a semester studying abroad.",
+              "Apply for a scholarship from the German Academic Scholarship Foundation."
+            ],
+            "kind": "event"
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Personal Projects",
+    "summary": "I also work on my own ideas outside university. Sometimes I want to build an application, and sometimes I want to investigate a mathematical question. I am interested not only in the finished result but also in understanding the problems along the way. Here I share work that I have spent more time on.",
+    "detailFields": [
+      "Why I started",
+      "How I approached it",
+      "What I enjoyed most",
+      "What I learned"
+    ],
+    "app": {
+      "category": "Software development",
+      "title": "Nutrition Tracking App",
+      "teaser": "I spent about half a year developing an app of my own with Flutter. It can record and analyse different personal metrics. I wanted to design the workflows myself and avoid restricting users to one fixed way of entering data.",
+      "tech": "Dart, Flutter, mobile application",
+      "imageAlt": "Illustrative phone placeholder, not a real screenshot of my app",
+      "imagePlaceholder": "Screenshot to come",
+      "detailLead": "The app includes a customisable home screen, a calendar, a QR scanner, statistics, and my own system for quick or combined entries, among other features.",
+      "detailPoints": [
+        "I wanted to create an app that could adapt to different habits. There should not be just one fixed way to enter each type of measurement.",
+        "I built the app myself with Dart and Flutter, connecting the features step by step. A lot of work went into the different ways of entering data and analysing it afterwards.",
+        "I enjoyed thinking through the application as a whole rather than just programming individual features. Every new idea came with decisions and dependencies that I had to consider.",
+        "I underestimated how important it is to test complicated screens early. There are still bugs in the current version. The statistics view crashes when opened. If I started again, I would plan systematic testing much earlier."
+      ]
+    },
+    "math": {
+      "category": "Mathematics and programming",
+      "title": "Prime Numbers and Mathematical Experiments",
+      "teaser": "For several years, I have investigated mathematical questions in my spare time, especially in number theory. I write programs, test conjectures and develop my own models. They often lead to new questions, even when the original idea does not work.",
+      "tech": "Python, C++, number theory",
+      "imageAlt": "Typographic display of prime numbers as a placeholder for a future visualisation",
+      "imagePlaceholder": "My visualisation to come",
+      "detailLead": "I have explored questions relating to Goldbach, Legendre, prime k-tuples and the Riemann hypothesis. These are my own investigations, not proofs of open conjectures.",
+      "detailPoints": [
+        "I am interested in patterns that seem simple at first but are difficult to explain. With prime numbers in particular, I wanted to see what regularities might exist and how possible connections could be tested.",
+        "I mainly worked with Python and have more recently tried C++ as well. Alongside calculations, I developed abstract models, including my Fake Prime-Wheel. I examine what is true within that model and do not assume that those properties automatically hold for actual primes.",
+        "I most enjoy moving between an idea, a mathematical argument and a program that tests it. Often, the results quickly show which assumption needs more thought.",
+        "Not every observation from a model can be transferred to the original problem. Some of my own attempts failed for exactly that reason. They taught me the importance of precise definitions, counterexamples and keeping experiments separate from proofs."
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "If you have a question, want to discuss a project idea or would simply like to exchange thoughts, feel free to write to me.",
+    "name": "Name",
+    "email": "Email address",
+    "message": "Message",
+    "submit": "Send message",
+    "sending": "Sending ...",
+    "required": "Please fill in this field.",
+    "invalidEmail": "Please enter a valid email address.",
+    "shortMessage": "Please write at least 10 characters.",
+    "unavailable": "Sending has not been set up yet. Your message was not sent.",
+    "networkError": "Your message could not be sent. Please try again later.",
+    "success": "Thanks! Your message has been sent successfully."
+  },
+  "footer": {
+    "imprint": "Legal notice",
+    "privacy": "Privacy",
+    "top": "Back to top",
+    "copyright": "© 2026 Markus Baier"
+  },
+  "legal": {
+    "back": "Back to home",
+    "warning": "This page is still a draft. All legally required details must be added and checked before publication.",
+    "imprintTitle": "Legal Notice",
+    "imprintText": "The person responsible is Markus Baier. A full service address, contact details and any other legally required information will be added before publication.",
+    "privacyTitle": "Privacy Policy",
+    "privacyText": "Before publication, a complete policy will cover the actual hosting, possible server logs, services used and the processing of contact requests. Messages submitted through the form are not sent without a configured endpoint. Your manual choice of language and colour theme is stored locally where the browser allows it."
+  }
+}

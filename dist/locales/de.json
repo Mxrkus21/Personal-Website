@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "homeTitle": "Markus Baier",
+    "homeDescription": "Markus Baier studiert Informatik an der FH Aachen. Hier stellt er sich, sein Studium und eigene Projekte vor.",
+    "imprintTitle": "Impressum | Markus Baier",
+    "privacyTitle": "Datenschutz | Markus Baier"
+  },
+  "access": {
+    "skip": "Zum Inhalt springen"
+  },
+  "navigation": {
+    "label": "Hauptnavigation",
+    "personal": "Persönlich",
+    "studies": "Studium",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "controls": {
+    "de": "DE",
+    "en": "EN",
+    "languageLabel": "Sprache auswählen",
+    "themeLabel": "Farbschema wechseln",
+    "dark": "Dunkel",
+    "light": "Hell",
+    "personalOpen": "Mehr über mich",
+    "personalClose": "Weniger über mich",
+    "studiesOpen": "Studium genauer ansehen",
+    "studiesClose": "Studium einklappen",
+    "projectOpen": "Projekt genauer ansehen",
+    "projectClose": "Projektdetails schließen"
+  },
+  "hero": {
+    "name": "Markus Baier",
+    "first": "Markus",
+    "last": "Baier",
+    "subtitle": "Ich studiere Informatik an der FH Aachen, gebe mein Wissen weiter und setze gerne eigene Projekte um.",
+    "portraitAlt": "Platzhalter für ein Porträt von Markus Baier",
+    "portraitPlaceholder": "Porträt folgt"
+  },
+  "personal": {
+    "title": "Persönlich",
+    "summary": "Ich möchte verstehen, wie Dinge funktionieren und wie man sie verbessern kann. Diese Art zu denken hat bei mir mit strategischen Spielen angefangen.",
+    "story": "Bei Brett- und Kartenspielen wollte ich früher meistens gewinnen. Dafür musste ich zuerst die Regeln verstehen und mir überlegen, welche Möglichkeiten ich habe, welches Ziel am wichtigsten ist und welcher Zug langfristig sinnvoll wäre. Irgendwann habe ich gemerkt, dass ich die gleichen Fragen auch bei ganz anderen Problemen stelle. Es macht mir Spaß, die zugrunde liegenden Systeme zu erkennen, zu verstehen und eigene Lösungen zu finden. Deshalb war das Informatikstudium für mich eine natürliche Entscheidung.",
+    "technicalText": "Einen festen Schwerpunkt habe ich noch nicht gewählt. Besonders interessieren mich bisher Systeme und Optimierung, Softwareentwicklung und Mathematik. Bei der Softwareentwicklung gefällt mir, dass ich eigene Ideen umsetzen kann. An der Mathematik fasziniert mich, wie universell sich mit ihr Probleme untersuchen und lösen lassen.",
+    "beyondTitle": "Mein eigenes Kartenspiel",
+    "beyondText": "Ich spiele auch heute noch gerne Brett- und Kartenspiele. Eines meiner Kartenspiele habe ich selbst entwickelt und spiele es bis heute mit Freude. Es ist ein persönliches, kreatives Projekt und kein Informatikprojekt.",
+    "gameAlt": "Foto meines selbst entwickelten Kartenspiels mit mehreren Spielkarten und dem Kartenstapel"
+  },
+  "studies": {
+    "title": "Studium & Engagement",
+    "summary": "Mein Studium besteht nicht nur aus Vorlesungen und Prüfungen. Hier siehst du meine bisherigen Leistungen und Aufgaben neben dem Studium.",
+    "timelineLabel": "Bereich des Studiums auswählen",
+    "timeline": [
+      {
+        "id": "academic",
+        "title": "Akademische Leistungen",
+        "entries": [
+          {
+            "date": "Seit Oktober 2026",
+            "title": "Deutschlandstipendium",
+            "text": "Seit Oktober 2026 werde ich durch das Deutschlandstipendium gefördert. Die Verleihung ist für den 13. November 2026 geplant.",
+            "kind": "ongoing"
+          },
+          {
+            "date": "Mai 2026",
+            "title": "Dean's List",
+            "text": "Für meine bisherigen Studienleistungen wurde ich in die Dean's List der FH Aachen aufgenommen.",
+            "kind": "event"
+          },
+          {
+            "date": "Bisheriges Studium",
+            "title": "Studienleistungen",
+            "text": "Viele meiner bisherigen Prüfungsleistungen liegen bei 1,0. Den genauen aktuellen Studienschnitt ergänze ich, sobald er feststeht.",
+            "kind": "ongoing"
+          },
+          {
+            "date": "Studienbeginn wird ergänzt",
+            "title": "Informatik an der FH Aachen",
+            "text": "Hier studiere ich Informatik und lerne unterschiedliche fachliche Bereiche kennen.",
+            "kind": "ongoing"
+          }
+        ]
+      },
+      {
+        "id": "teaching",
+        "title": "Lehre & Verantwortung",
+        "entries": [
+          {
+            "date": "Seit September 2026",
+            "title": "Tutor an der FH Aachen",
+            "text": "Als Tutor unterstütze ich andere Studenten dabei, Inhalte zu verstehen und selbst anzuwenden.",
+            "kind": "ongoing"
+          },
+          {
+            "date": "Zeitraum wird ergänzt",
+            "title": "Sprecher der Deutschlandstipendiaten",
+            "text": "Ich bin Sprecher des diesjährigen Jahrgangs der Deutschlandstipendiaten.",
+            "kind": "ongoing"
+          },
+          {
+            "date": "Seit der frühen Studienzeit",
+            "title": "Mathematik-Nachhilfe",
+            "text": "Ich gebe selbstständig Schülern Nachhilfe in Mathematik. Auf Anfrage helfe ich auch Studenten in unterschiedlichen Fächern.",
+            "kind": "ongoing"
+          }
+        ]
+      },
+      {
+        "id": "initiative",
+        "title": "Initiative & Entwicklung",
+        "entries": [
+          {
+            "date": "Seit September 2026",
+            "title": "TRACE",
+            "text": "Neben meinem Studium nehme ich am gründungsorientierten Programm TRACE teil. Dort beschäftige ich mich damit, wie aus Ideen eigene Vorhaben werden können.",
+            "kind": "ongoing"
+          },
+          {
+            "date": "Geplant",
+            "title": "Meine nächsten Ziele",
+            "goals": [
+              "Eine Werkstudentenstelle finden und praktische Erfahrung sammeln.",
+              "Ein Auslandssemester machen.",
+              "Mich um ein Stipendium der Studienstiftung des deutschen Volkes bewerben."
+            ],
+            "kind": "event"
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Eigene Projekte",
+    "summary": "Auch außerhalb des Studiums beschäftige ich mich mit eigenen Ideen. Manchmal möchte ich eine Anwendung bauen, manchmal eine mathematische Frage genauer untersuchen. Dabei geht es mir nicht nur um ein fertiges Ergebnis, sondern auch darum, die Probleme auf dem Weg dorthin zu verstehen. Hier stelle ich die Arbeiten vor, mit denen ich mich länger beschäftigt habe.",
+    "detailFields": [
+      "Warum ich angefangen habe",
+      "Wie ich vorgegangen bin",
+      "Was mir besonders gefallen hat",
+      "Was ich daraus gelernt habe"
+    ],
+    "app": {
+      "category": "Softwareentwicklung",
+      "title": "Ernährungs-Tracking-App",
+      "teaser": "Ich habe über ungefähr ein halbes Jahr eine eigene App mit Flutter entwickelt. Mit ihr lassen sich verschiedene persönliche Werte erfassen und auswerten. Dabei wollte ich möglichst viele Abläufe selbst gestalten, statt mich auf eine feste Eingabelogik zu beschränken.",
+      "tech": "Dart, Flutter, mobile Anwendung",
+      "imageAlt": "Illustrativer Telefonplatzhalter, kein echter Screenshot meiner App",
+      "imagePlaceholder": "Screenshot folgt",
+      "detailLead": "Die App hat unter anderem eine anpassbare Startseite, einen Kalender, einen QR-Scanner, Statistiken und eine eigene Logik für schnelle oder zusammengesetzte Einträge.",
+      "detailPoints": [
+        "Ich wollte eine App entwickeln, die sich an unterschiedliche Gewohnheiten anpassen lässt. Es sollte nicht für jeden Wert nur einen einzigen festen Weg geben, ihn einzutragen.",
+        "Ich habe die App mit Dart und Flutter selbst umgesetzt und die verschiedenen Funktionen Schritt für Schritt miteinander verbunden. Besonders viel Arbeit steckte in den unterschiedlichen Möglichkeiten, Daten einzugeben und später wieder auszuwerten.",
+        "Mir hat gefallen, dass ich nicht nur einzelne Funktionen programmieren, sondern die ganze Anwendung selbst durchdenken konnte. Jede neue Idee brachte neue Entscheidungen und Abhängigkeiten mit sich.",
+        "Ich habe dabei unterschätzt, wie wichtig es ist, komplexe Ansichten frühzeitig zu testen. In der aktuellen Version gibt es noch Fehler. Die Statistikansicht stürzt beim Öffnen ab. Bei einer neuen Version würde ich die Tests früher und systematischer einplanen."
+      ]
+    },
+    "math": {
+      "category": "Mathematik und Programmierung",
+      "title": "Primzahlen und mathematische Experimente",
+      "teaser": "Seit mehreren Jahren untersuche ich aus eigenem Interesse mathematische Fragestellungen, besonders aus der Zahlentheorie. Dafür schreibe ich Programme, teste Vermutungen und entwickle eigene Modelle. Oft ergeben sich daraus neue Fragen, auch wenn eine ursprüngliche Idee nicht funktioniert.",
+      "tech": "Python, C++, Zahlentheorie",
+      "imageAlt": "Typografische Darstellung einiger Primzahlen als Platzhalter für eine spätere Visualisierung",
+      "imagePlaceholder": "Eigene Visualisierung folgt",
+      "detailLead": "Ich habe mich unter anderem mit Fragen rund um Goldbach, Legendre, Primzahl-k-Tupel und die Riemannsche Vermutung beschäftigt. Dabei geht es um eigene Untersuchungen, nicht um den Nachweis offener Vermutungen.",
+      "detailPoints": [
+        "Mich interessieren Muster, die auf den ersten Blick einfach wirken, sich aber nur schwer erklären lassen. Besonders bei Primzahlen wollte ich wissen, welche Regelmäßigkeiten es geben könnte und wie man mögliche Zusammenhänge überprüfen kann.",
+        "Ich habe hauptsächlich mit Python gearbeitet und in jüngerer Zeit auch C++ ausprobiert. Neben Berechnungen habe ich abstrakte Modelle entwickelt, darunter mein Fake Prime-Wheel. Ich untersuche ausdrücklich die Eigenschaften des Modells und behaupte nicht, dass sie automatisch für echte Primzahlen gelten.",
+        "Am meisten Spaß macht mir der Wechsel zwischen einer Idee, einer mathematischen Überlegung und einem Programm, das sie überprüft. Oft lässt sich sehr schnell erkennen, welche Annahme noch nicht ausreichend durchdacht ist.",
+        "Nicht jede Beobachtung aus einem Modell lässt sich übertragen. Einige meiner Versuche sind genau daran gescheitert. Das hat mir gezeigt, wie wichtig genaue Definitionen, Gegenbeispiele und eine klare Trennung zwischen Experiment und Beweis sind."
+      ]
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "intro": "Wenn du eine Frage hast, eine Projektidee besprechen möchtest oder dich einfach austauschen willst, kannst du mir gerne schreiben.",
+    "name": "Name",
+    "email": "E-Mail-Adresse",
+    "message": "Nachricht",
+    "submit": "Nachricht senden",
+    "sending": "Wird gesendet ...",
+    "required": "Bitte fülle dieses Feld aus.",
+    "invalidEmail": "Bitte gib eine gültige E-Mail-Adresse ein.",
+    "shortMessage": "Schreib bitte mindestens 10 Zeichen.",
+    "unavailable": "Der Versand ist noch nicht eingerichtet. Deine Nachricht wurde nicht gesendet.",
+    "networkError": "Deine Nachricht konnte nicht gesendet werden. Versuch es bitte später noch einmal.",
+    "success": "Danke! Deine Nachricht wurde erfolgreich gesendet."
+  },
+  "footer": {
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "top": "Zurück nach oben",
+    "copyright": "© 2026 Markus Baier"
+  },
+  "legal": {
+    "back": "Zurück zur Startseite",
+    "warning": "Diese Seite ist noch ein Entwurf. Vor einer Veröffentlichung müssen alle rechtlich erforderlichen Angaben ergänzt und geprüft werden.",
+    "imprintTitle": "Impressum",
+    "imprintText": "Verantwortlich ist Markus Baier. Die vollständige ladungsfähige Anschrift, Kontaktangaben und gegebenenfalls weitere rechtlich erforderliche Informationen werden vor der Veröffentlichung ergänzt.",
+    "privacyTitle": "Datenschutzerklärung",
+    "privacyText": "Vor der Veröffentlichung wird eine vollständige Erklärung zum tatsächlichen Hosting, zu möglichen Serverprotokollen, verwendeten Diensten und zur Verarbeitung von Kontaktanfragen erstellt. Ohne eingerichteten Endpunkt werden Nachrichten aus dem Formular nicht versendet. Deine manuelle Auswahl von Sprache und Farbschema wird, soweit im Browser möglich, lokal gespeichert."
+  }
+}

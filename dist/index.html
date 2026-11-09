@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="description" content="">
+    <title></title>
+
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/config.js" defer></script>
+    <script src="js/i18n.js" defer></script>
+    <script src="js/content.js" defer></script>
+    <script src="js/interactions.js" defer></script>
+    <script src="js/contact.js" defer></script>
+    <script src="js/app.js" defer></script>
+  </head>
+
+  <body data-page="home">
+    <a class="skip-link" href="#main" data-i18n="access.skip"></a>
+    <div id="top"></div>
+
+    <header class="site-header page-width">
+      <a class="wordmark" href="#top" data-i18n="hero.name"></a>
+
+      <nav class="primary-nav" data-i18n-attr="aria-label:navigation.label">
+        <a href="#personal" data-i18n="navigation.personal"></a>
+        <a href="#studies" data-i18n="navigation.studies"></a>
+        <a href="#projects" data-i18n="navigation.projects"></a>
+        <a href="#contact" data-i18n="navigation.contact"></a>
+      </nav>
+
+      <div class="header-controls">
+        <div class="language-control" role="group" data-i18n-attr="aria-label:controls.languageLabel">
+          <button type="button" data-lang="de" data-i18n="controls.de" aria-pressed="true"></button>
+          <span aria-hidden="true">/</span>
+          <button type="button" data-lang="en" data-i18n="controls.en" aria-pressed="false"></button>
+        </div>
+        <button
+          class="theme-control"
+          type="button"
+          id="theme-toggle"
+          data-i18n="controls.dark"
+          data-i18n-attr="aria-label:controls.themeLabel"
+        ></button>
+      </div>
+    </header>
+
+    <main id="main" class="page-width">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <h1 id="hero-title">
+            <span data-i18n="hero.first"></span>
+            <span data-i18n="hero.last"></span>
+          </h1>
+
+          <p class="hero-subtitle" data-i18n="hero.subtitle"></p>
+        </div>
+
+        <figure class="hero-portrait">
+          <div
+            class="portrait-placeholder"
+            role="img"
+            data-i18n-attr="aria-label:hero.portraitAlt"
+          >
+            <span data-i18n="hero.portraitPlaceholder"></span>
+          </div>
+        </figure>
+      </section>
+
+      <section class="disclosure-section personal-section" id="personal" aria-labelledby="personal-title">
+        <div class="section-heading">
+          <div>
+            <h2 id="personal-title" data-i18n="personal.title"></h2>
+            <p class="section-summary" data-i18n="personal.summary"></p>
+          </div>
+
+          <button
+            type="button"
+            class="reveal-toggle"
+            data-panel="personal-detail"
+            data-open-key="controls.personalOpen"
+            data-close-key="controls.personalClose"
+            aria-expanded="false"
+            aria-controls="personal-detail"
+          >
+            <span data-toggle-label></span>
+            <span class="toggle-arrow" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <div class="reveal-panel" id="personal-detail" inert aria-hidden="true">
+          <div class="reveal-inner personal-detail">
+            <div class="personal-story">
+              <p class="lead-paragraph" data-i18n="personal.story"></p>
+              <p class="personal-followup" data-i18n="personal.technicalText"></p>
+            </div>
+
+            <div class="personal-play">
+              <div class="personal-play-text">
+                <h3 data-i18n="personal.beyondTitle"></h3>
+                <p data-i18n="personal.beyondText"></p>
+              </div>
+              <figure class="game-figure">
+                <img
+                  src="assets/kartenspiel.jpeg"
+                  data-i18n-attr="alt:personal.gameAlt"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                  width="1565"
+                  height="2048"
+                >
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="studies-section" id="studies" aria-labelledby="studies-title">
+        <div class="section-heading">
+          <div>
+            <h2 id="studies-title" data-i18n="studies.title"></h2>
+            <p class="section-summary" data-i18n="studies.summary"></p>
+          </div>
+          <button
+            type="button"
+            class="reveal-toggle"
+            data-panel="studies-detail"
+            data-open-key="controls.studiesOpen"
+            data-close-key="controls.studiesClose"
+            aria-expanded="false"
+            aria-controls="studies-detail"
+          >
+            <span data-toggle-label></span>
+            <span class="toggle-arrow" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <div class="reveal-panel" id="studies-detail" inert aria-hidden="true">
+          <div class="reveal-inner">
+            <div class="studies-content">
+              <div
+                class="timeline-tabs"
+                id="timeline-tabs"
+                role="tablist"
+                data-i18n-attr="aria-label:studies.timelineLabel"
+              ></div>
+              <div class="timeline-columns" id="timeline-columns"></div>
+              <div class="timeline-mobile" id="timeline-mobile" role="tabpanel" tabindex="0"></div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="projects-heading">
+          <h2 id="projects-title" data-i18n="projects.title"></h2>
+          <p data-i18n="projects.summary"></p>
+        </div>
+
+        <div class="project-collection">
+          <article class="project-feature project-feature-app" aria-labelledby="project-app-title">
+            <div class="project-entry-heading">
+              <div class="project-entry-title">
+                <h3 id="project-app-title" data-i18n="projects.app.title"></h3>
+                <p class="project-type" data-i18n="projects.app.category"></p>
+                <p class="project-tech" data-i18n="projects.app.tech"></p>
+              </div>
+              <button
+                type="button"
+                class="reveal-toggle project-toggle"
+                data-panel="project-app-detail"
+                data-open-key="controls.projectOpen"
+                data-close-key="controls.projectClose"
+                aria-expanded="false"
+                aria-controls="project-app-detail"
+              >
+                <span data-toggle-label></span>
+                <span class="toggle-arrow" aria-hidden="true"></span>
+              </button>
+            </div>
+
+            <div class="reveal-panel" id="project-app-detail" inert aria-hidden="true">
+              <div class="reveal-inner project-entry-content" data-project-detail="app">
+                <div class="project-feature-main">
+                  <div class="project-feature-copy">
+                    <p data-i18n="projects.app.teaser"></p>
+                  </div>
+                  <div
+                    class="phone-stage"
+                    role="img"
+                    data-i18n-attr="aria-label:projects.app.imageAlt"
+                  >
+                    <div class="phone-outline">
+                      <span data-i18n="projects.app.imagePlaceholder"></span>
+                      <i></i>
+                      <i></i>
+                      <i></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-detail-shell">
+                  <p class="detail-lead" data-i18n="projects.app.detailLead"></p>
+                  <div class="detail-points">
+                    <section class="detail-point">
+                      <h4 data-i18n="projects.detailFields.0"></h4>
+                      <p data-i18n="projects.app.detailPoints.0"></p>
+                    </section>
+                    <section class="detail-point">
+                      <h4 data-i18n="projects.detailFields.1"></h4>
+                      <p data-i18n="projects.app.detailPoints.1"></p>
+                    </section>
+                    <section class="detail-point">
+                      <h4 data-i18n="projects.detailFields.2"></h4>
+                      <p data-i18n="projects.app.detailPoints.2"></p>
+                    </section>
+                    <section class="detail-point">
+                      <h4 data-i18n="projects.detailFields.3"></h4>
+                      <p data-i18n="projects.app.detailPoints.3"></p>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-feature project-feature-math" aria-labelledby="project-math-title">
+            <div class="project-entry-heading">
+              <div class="project-entry-title">
+                <h3 id="project-math-title" data-i18n="projects.math.title"></h3>
+                <p class="project-type" data-i18n="projects.math.category"></p>
+                <p class="project-tech" data-i18n="projects.math.tech"></p>
+              </div>
+              <button
+                type="button"
+                class="reveal-toggle project-toggle"
+                data-panel="project-math-detail"
+                data-open-key="controls.projectOpen"
+                data-close-key="controls.projectClose"
+                aria-expanded="false"
+                aria-controls="project-math-detail"
+              >
+                <span data-toggle-label></span>
+                <span class="toggle-arrow" aria-hidden="true"></span>
+              </button>
+            </div>
+
+            <div class="reveal-panel" id="project-math-detail" inert aria-hidden="true">
+              <div class="reveal-inner project-entry-content" data-project-detail="math">
+                <div class="project-feature-main">
+                  <div
+                    class="math-stage"
+                    role="img"
+                    data-i18n-attr="aria-label:projects.math.imageAlt"
+                  >
+                    <span class="math-formula" aria-hidden="true">{2, 3, 5, 7, 11, …}</span>
+                    <span class="math-caption" data-i18n="projects.math.imagePlaceholder"></span>
+                  </div>
+                  <div class="project-feature-copy">
+                    <p data-i18n="projects.math.teaser"></p>
+                  </div>
+                </div>
+
+                <div class="project-detail-shell">
+                  <p class="detail-lead" data-i18n="projects.math.detailLead"></p>
+                  <div class="detail-points">
+                    <section class="detail-point">
+                      <h4 data-i18n="projects.detailFields.0"></h4>
+                      <p data-i18n="projects.math.detailPoints.0"></p>
+                    </section>
+                    <section class="detail-point">
+                      <h4 data-i18n="projects.detailFields.1"></h4>
+                      <p data-i18n="projects.math.detailPoints.1"></p>
+                    </section>
+                    <section class="detail-point">
+                      <h4 data-i18n="projects.detailFields.2"></h4>
+                      <p data-i18n="projects.math.detailPoints.2"></p>
+                    </section>
+                    <section class="detail-point">
+                      <h4 data-i18n="projects.detailFields.3"></h4>
+                      <p data-i18n="projects.math.detailPoints.3"></p>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-copy">
+          <h2 id="contact-title" data-i18n="contact.title"></h2>
+          <p data-i18n="contact.intro"></p>
+        </div>
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="field">
+            <label for="contact-name" data-i18n="contact.name"></label>
+            <input
+              id="contact-name"
+              name="name"
+              autocomplete="name"
+              required
+              maxlength="120"
+              aria-describedby="name-error"
+            >
+            <p class="field-error" id="name-error"></p>
+          </div>
+
+          <div class="field">
+            <label for="contact-email" data-i18n="contact.email"></label>
+            <input
+              id="contact-email"
+              type="email"
+              name="email"
+              autocomplete="email"
+              required
+              maxlength="254"
+              aria-describedby="email-error"
+            >
+            <p class="field-error" id="email-error"></p>
+          </div>
+
+          <div class="field">
+            <label for="contact-message" data-i18n="contact.message"></label>
+            <textarea
+              id="contact-message"
+              name="message"
+              rows="6"
+              required
+              minlength="10"
+              maxlength="5000"
+              aria-describedby="message-error"
+            ></textarea>
+            <p class="field-error" id="message-error"></p>
+          </div>
+
+          <div class="form-actions">
+            <button class="send-button" type="submit" data-i18n="contact.submit"></button>
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+
+      </section>
+    </main>
+
+    <footer class="site-footer page-width">
+      <div class="footer-links">
+        <a href="impressum.html" data-i18n="footer.imprint"></a>
+        <a href="datenschutz.html" data-i18n="footer.privacy"></a>
+      </div>
+      <a href="#top" data-i18n="footer.top"></a>
+      <span data-i18n="footer.copyright"></span>
+    </footer>
+  </body>
+</html>
